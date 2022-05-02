@@ -1,4 +1,4 @@
-# Modelling and Forecasting Returns for CAD-JPY Price
+# Time Series Analysis: Predicting Returns for CAD-JPY Price
 
 ![tokyo](./images/tokyo.png)
 
@@ -11,7 +11,7 @@ In this analysis we will predict future movements of the Canadian dollar/Japanes
 
 ### Initial Time-Series Plotting
 
-Looking at only the price movement in the past 30 years, there is a narrowing of the highs and lows as time goes on. In other words, dramatic shifts in the exchange rate have lessened over the decades.
+Looking at the price movement in the past 30 years, there is a pattern of consistent volatility.
 
 ![price](./images/price.png)
 
