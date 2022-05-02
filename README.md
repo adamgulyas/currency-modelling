@@ -53,3 +53,20 @@ The GARCH model predicts an increase in volatility over the next five days. This
 A linear regression model was **trained** on the dataset ranging from 1990-2017 and **tested** against the remaining data from 2018-2020. The testing set (out-of-sample data) has a lower RMSE (Root Mean Squared Error) than the training set (in-sample data), indicating the model is not overfitted and should continue to be trained and tested.
 
 ![forecast-linear-regression](./images/forecast-linear-regression.png)
+
+## Conclusion
+
+1. Based on your time series analysis, would you buy the yen now?
+
+    I wouldn't buy the yen given the results of the analysis because:
+    * The ARMA model's p-values are too high for the forecast to be reliable. In this case, we can throw away the results.
+    * The ARIMA model has high p-values, indicating a low reliability for the forecast. This model also predicts a decline in price over the next five days.
+    * The GARCH model forecasts an increase in volatility, making it more difficult to time the buy.
+
+2. Is the risk of the yen expected to increase or decrease?
+
+    The line in the chart beginning in the bottom-left and ending in the top-right indicates the volatility of the yen is expected to increase.
+    
+3. Based on the model evaluation, would you feel confident in using these models for trading?
+    
+    With the ARMA and ARIMA the p-values > 0.05, I wouldn't be confident enough in those models to trade on. The GARCH model has extremely low p-values, indicating a great fit. I would experiment with trading based on the GARCH model results.
