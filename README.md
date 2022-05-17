@@ -69,4 +69,4 @@ A linear regression model was **trained** on the dataset ranging from 1990-2017 
     
 3. Based on the model evaluation, would you feel confident in using these models for trading?
     
-    With the ARMA and ARIMA the p-values > 0.05, I wouldn't be confident enough in those models to trade on. The GARCH model has extremely low p-values, indicating a great fit. I would experiment with trading based on the GARCH model results.
+    With the ARMA and ARIMA p-values greater than 0.05, I wouldn't be confident enough in those models to trade on. The GARCH model has extremely low p-values, indicating a great fit. I would experiment with trading based on the GARCH model results.
